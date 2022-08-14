@@ -1,0 +1,16 @@
+body {
+  background-color: #f5f7fb;
+}
+
+.answer + .answer {
+  margin-left: 20px;
+}
+
+.answer {
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  color: #4d5b9e;
+  background-color: transparent;
+  padding-inline: 20px;
+  cursor: pointer;
+}
