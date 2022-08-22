@@ -155,14 +155,14 @@ export default function Trivia(props) {
       {<main>{element}</main>}
       {tryAgain ? (
         <button className="btns" onClick={check}>
-          Check Answers
+          Check Answers &#128526;
         </button>
       ) : (
         <button className="btns" onClick={() => window.location.reload(false)}>
-          Click to reload and restart
+          Click to reload and restart &#128525;
         </button>
       )}
-      {submit && <p className="bottom__text">You scored {count}/5</p>}
+      {submit && <p className="bottom__text">You scored {count}/5 &#129299;</p>}
     </div>
   )
 }

@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 // import { v4 } from 'uuid'
 import Trivia from './components/Trivia'
 
+// figma link
+// https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App?node-id=8%3A2
+
 export default function App() {
   const [dataArray, setDataArray] = useState([
     {
@@ -122,10 +125,13 @@ export default function App() {
         <div className="main">
           {home && (
             <main>
-              <h2>Quizzical</h2>
-              <p>Welcome, Click on the button below when you are ready</p>
+              <h2>Quizzical &#128519;</h2>
+              <p>Welcome, Carefully select your answers &#129300;</p>
+              <p>
+                Note: when picked there is not changing it, Goodluck &#128513;
+              </p>
               <button className="btns" onClick={handleStart}>
-                Start Quiz
+                Start Quiz &#128527;
               </button>
             </main>
           )}
