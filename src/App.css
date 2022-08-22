@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
 body {
+  /* background-color: black; */
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: #f5f7fb;
+}
+
+h2 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #293264;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #293264;
+}
+
+h5 {
+  color: #293264;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+}
+
+.answers {
+  display: flex;
 }
 
 .answer + .answer {
@@ -11,6 +61,57 @@ body {
   border-radius: 7.94239px;
   color: #4d5b9e;
   background-color: transparent;
-  padding-inline: 20px;
+  padding-inline: 10px;
   cursor: pointer;
+  font-weight: 500;
+  font-family: 'inter';
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+/* .btn {
+} */
+/* const styles = { backgroundColor: e.target.innerText === ? '#D6DBF5' : 'white' } */
+
+.bg-color {
+  background-color: #d6dbf5;
+}
+/* 
+.answer:disabled {
+  background-color: #4d5b9e;
+  color: white;
+} */
+
+img {
+  width: 100%;
+  position: absolute;
+}
+
+.trivia {
+  text-align: start;
+  font-family: 'inter';
+}
+
+.btns {
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 140px;
+  padding: 9px 14px;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.bottom__text {
+  text-align: center;
 }
